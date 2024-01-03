@@ -18,21 +18,18 @@
 
         <div class="amt-area">
             <p>Enter Amnount</p>
-            <input type="text" placeholder="Enter your amount here" id="amt">
+            <input type="number" placeholder="Enter your amount here" id="amt">
         </div>
 
 
 
         <div class="select-area">
 
-        <div class="from">
+        <div class="from-con">
             <p>From</p>
-            <div class="select">
+            <div class="select-from">
             <img src="https://flagsapi.com/US/flat/64.png" alt="flag">
-            <select>
-                <option value="INR">INR</option>
-                <option value="USD">USD</option>
-                <option value="EUR">EUR</option>
+            <select name="from">
             </select>
         </div>
         </div>
@@ -41,15 +38,12 @@
         <i class="fa-solid fa-arrow-right-arrow-left"></i>
 
 
-        <div class="to">
-            <div class="selct-area">
-            <p>From</p>
+        <div class="to-con">
+            <div class="selct-to">
+            <p>To</p>
             <div class="select">
             <img src="https://flagsapi.com/IN/flat/64.png" alt="flag">
-        <select>
-            <option value="INR">INR</option>
-            <option value="USD">USD</option>
-            <option value="EUR">EUR</option>
+        <select name="to">
         </select>
     </div>
     </div>
@@ -58,7 +52,6 @@
     </div>
 
     <div class="final">
-        <p id="last-amt"></p>
     </div>
 
 
@@ -67,6 +60,8 @@
     </div>
     </div>
 
+
+    <script src="countrulist.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

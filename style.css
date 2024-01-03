@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600
 }
 
 body{
@@ -74,6 +75,22 @@ h2{
     align-items: center;
 }
 
+select{
+    border-radius:5px;
+    height: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(233, 97, 0);
+}
+
+option{
+    background-color: rgba(0, 0, 0, 0.697);
+    color: white;
+    font-weight: bold
+
+}
+
 .final{
     width: 75%;
     display: flex;
@@ -104,6 +121,7 @@ h2{
     font-weight: 900;
     font-size: 1rem;
     transition: 0.3s all ease;
+    margin-bottom: 26px;
 }
 #btn:hover{
     width: 95%;
